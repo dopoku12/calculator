@@ -1,0 +1,50 @@
+.display {
+  background-color: rgb(255, 255, 255);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+  height: 17vh;
+  width: 33.5vw;
+  border: black 10px solid;
+  position: relative;
+}
+
+.btn,
+.btnS,
+#enter {
+  background-color: snow;
+  height: 10vh;
+  width: 10vh;
+  position: relative;
+  bottom: -2%;
+  margin-left: 60px;
+  margin-bottom: 25px;
+
+  font-size: 50px;
+  border-radius: 50%;
+  box-shadow: black 10px 10px 10px;
+}
+#enter {
+  width: 35vh;
+}
+
+#Calculator {
+  background-color: rgb(248, 0, 0);
+  height: 120vh;
+  width: 35vw;
+  position: sticky;
+  bottom: -5px;
+  left: 27%;
+  box-shadow: black 0px 0px 30px 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+.hide {
+  display: none;
+}
+
+body {
+  background-color: rgba(219, 12, 12, 0.144);
+  height: 1000%;
+
+  width: 1000%;
+  overflow-x: hidden;
+}
